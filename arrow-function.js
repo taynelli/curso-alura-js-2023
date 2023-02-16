@@ -8,10 +8,12 @@ const soma = (num1, num2) => num1 + num2;
 
 //Arrow function com + de 1 linha de instrução
 
-//const somaNumerosPequenos = (num1, num2) => {
-   // if (num1 > 10 || num2 > 10) {
+const somaNumerosPequenos = (num1, num2) => {
+    if (num1 > 10 || num2 > 10) {
 
-    //} else {
-    //    return num1 + num2;
-  //  }
-//}
+    } else {
+        return num1 + num2;
+    }
+}
+
+// Hoisting: Arrow function se comporta como expressão
